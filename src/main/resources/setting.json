@@ -1,0 +1,73 @@
+{
+  "option": {
+    "form": {
+      "inline": false,
+      "hideRequiredAsterisk": false,
+      "labelPosition": "right",
+      "size": "default",
+      "labelWidth": "125px"
+    },
+    "resetBtn": {
+      "show": false,
+      "innerText": "重置"
+    },
+    "submitBtn": {
+      "show": true,
+      "innerText": "提交"
+    }
+  },
+  "rule": [
+    {
+      "type": "select",
+      "field": "MOUSE_OFFECTS",
+      "title": "鼠标特效",
+      "info": "请选择鼠标特效",
+      "effect": {
+        "fetch": ""
+      },
+      "$required": false,
+      "props": {
+        "placeholder": "请选择鼠标特效"
+      },
+      "options": [
+        {
+          "label": "弹出爱心",
+          "value": "aixin"
+        },
+        {
+          "label": "弹出文字",
+          "value": "wenzi"
+        },
+        {
+          "label": "弹出彩球",
+          "value": "caiqiu"
+        },
+        {
+          "label": "弹出彩色粒子",
+          "value": "lizi"
+        },
+        {
+          "label": "鼠标重影跟随",
+          "value": "chongying"
+        },
+        {
+          "label": "泡泡跟随",
+          "value": "paopao"
+        },
+        {
+          "label": "笑脸挂坠跟随",
+          "value": "face"
+        },
+        {
+          "label": "彩色雪花跟随",
+          "value": "snow"
+        }
+      ],
+      "_fc_id": "id_Flyrm49aoydhacc",
+      "name": "ref_Fdxbm49aoydhadc",
+      "display": true,
+      "hidden": false,
+      "_fc_drag_tag": "select"
+    }
+  ]
+}
